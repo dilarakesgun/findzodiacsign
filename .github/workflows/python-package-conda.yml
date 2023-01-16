@@ -1,0 +1,72 @@
+import time
+import datetime
+
+print("The date of today:",time.strftime("%c"))
+
+a=int(input("Enter the day you were born:"))
+b=int(input("Enter the month you were born(as a number):"))
+c=int(input("Enter the year you were born"))
+sign=""
+age=2023-c
+
+print("You are {} years old.".format(age))
+
+if (a>=21) and b==3 :
+    sign="Aries"
+
+elif (a>=1 and a<=20) and b==4:
+    sign="Aries"
+
+elif (a>=21)and b==4:
+    sign="Taurus"
+
+elif (a>=1 and a<=21) and b==5:
+    sign="Taurus"
+
+elif (a>=22) and b==5:
+    sign="Gemini"
+
+elif (a>=1 and a<=22) and b==6:
+    sign="Gemini"
+
+elif (a>=23) and b==6:
+    sign="Cancer"
+
+elif (a>=1 and a<=22) and b==7:
+    sign="Cancer"
+
+elif (a>=23) and b==7:
+    sign="Leo"
+elif (a>=1 and a<=22) and b==8:
+    sign="Leo"
+elif (a>=23) and b==8:
+    sign="Virgo"
+elif (a>=1 and a<=22) and b==9:
+    sign="Virgo"
+elif (a>=23) and b==9:
+    sign="Libra"
+elif (a>=1 and a<=22) and b==10:
+    sign="Libra"
+elif (a>=23) and b==10:
+    sign="Scropio"
+elif (a>=1 and a<=21) and b==11:
+    sign="Scorpio"
+elif (a>=22) and b==11:
+    sign="Sgittarius"
+elif (a>=1 and a<=21) and b==12:
+    sign="Sgittarius"
+elif (a>=22) and b==12:
+    sign="Capricorn"
+elif (a>=1 and a<=21) and b==1:
+    sign="Capricorn"
+elif (a>=22) and b==1:
+    sign="Aquarius"
+elif (a>=1 and a<=19) and b==2:
+    sign="Aquarius"
+elif (a>=20) and b==2:
+    sign="Pisces"
+elif (a>=1 and a<=20) and b==3:
+    sign="Pisces"
+
+print("Your sign is {}".format(sign))
+
